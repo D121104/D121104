@@ -2,9 +2,7 @@
 
 # Hi there, I'm D121104 👋
 
-**Backend Engineer · Data Engineering Enthusiast · Java & Spring Boot**
-
-*Building scalable systems — from microservices to real-time streaming pipelines*
+**Backend Engineer · Data Engineering · Java & Spring Boot**
 
 [![GitHub followers](https://img.shields.io/github/followers/D121104?label=Follow&style=social)](https://github.com/D121104)
 [![GitHub stars](https://img.shields.io/github/stars/D121104?affiliations=OWNER&style=social)](https://github.com/D121104?tab=repositories)
@@ -32,8 +30,6 @@
 ### Backend & Frameworks
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Data & Streaming
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
@@ -70,7 +66,7 @@
 ---
 
 ### 📚 [Web Truyện — Backend (Spring Boot)](https://github.com/D121104/web-truyen-be-spring)
-> RESTful API backend for a Vietnamese online comic/novel reading platform. Migrated from NestJS to Spring Boot.
+> RESTful API backend for a Vietnamese online comic/novel reading platform.
 
 - Full auth flow: JWT (access + refresh), Google OAuth2, OTP email verification
 - Premium content access control with PayOS payment integration
@@ -81,16 +77,6 @@
 
 ---
 
-### 🏎 [Race Tournament — Microservices](https://github.com/D121104/race_tournament_microservices)
-> Distributed race tournament management system built on Spring Cloud microservices.
-
-- **API Gateway** + **Eureka Service Discovery** for dynamic routing and load balancing
-- Independent services: Race, Racer, Season, Tournament — each with its own MySQL database
-- Fully containerized orchestration via Docker Compose
-
-`Java` `Spring Boot` `Spring Cloud` `Eureka` `API Gateway` `MySQL` `Docker`
-
----
 
 ### ❤️ [Heart Disease Prediction](https://github.com/D121104/heart-disease-prediction)
 > Machine learning pipeline for predicting heart disease risk from clinical data.
