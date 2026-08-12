@@ -1,112 +1,128 @@
-<div align="center">
+# D121104
 
-# Hi there, I'm D121104 👋
+**Data Engineer | Machine Learning Engineer**
 
-**Backend Engineer · Data Engineering · Java & Spring Boot**
+I build data pipelines, analytics platforms, and machine learning systems with a focus on reliable data processing, reproducible workflows, and production-oriented engineering.
 
-[![GitHub followers](https://img.shields.io/github/followers/D121104?label=Follow&style=social)](https://github.com/D121104)
-[![GitHub stars](https://img.shields.io/github/stars/D121104?affiliations=OWNER&style=social)](https://github.com/D121104?tab=repositories)
-
-</div>
+My main interests are **Data Engineering, Machine Learning, and MLOps**.
 
 ---
 
-## 🧑‍💻 About Me
+## About
 
-- 🔭 Currently building **real-time data pipelines** and **microservice architectures** with Java & Spring Boot
-- 🌱 Deepening expertise in **Apache Kafka**, **Apache Flink**, and **distributed systems**
-- ⚡ Passionate about clean backend design: event-driven architecture, OLAP analytics, and DevOps automation
-- 🎮 Side interest: applying data engineering to **esports telemetry** (LoL match analysis)
-
----
-
-## 🛠 Tech Stack
-
-### Languages
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Backend & Frameworks
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-
-### Data & Streaming
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBB?style=for-the-badge&logo=terraform&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+* Building end-to-end data platforms and ETL/ELT pipelines
+* Working with batch and real-time data processing
+* Developing machine learning and deep learning systems
+* Interested in data modeling, data quality, analytics engineering, and ML pipelines
+* Currently expanding my knowledge of distributed systems, MLOps, and production ML
 
 ---
 
-## 🚀 Featured Projects
+## Technical Skills
 
-### 🏆 [LoL Esports — Real-time Telemetry Pipeline](https://github.com/D121104/LoL-Esports-Real-time-Telemetry-Pipeline)
-> A high-performance data engineering pipeline that ingests, processes, and visualizes telemetry from professional League of Legends matches in real-time.
+**Data Engineering**
 
-- **Ingestion**: Spring Boot 3.2 + WebFlux — replays Riot API match timelines, streams events to Kafka at thousands per second
-- **Processing**: 5 stateful Apache Flink jobs — gold differential, combat events, participation, win probability, match summary
-- **Storage**: ClickHouse (OLAP) + PostgreSQL + LocalStack (AWS S3 emulation)
-- **Visualization**: 12-panel Grafana dashboard with live match selector
-- **Infrastructure**: Docker Compose (10 services), Terraform for IaC
+`Python` `SQL` `Apache Airflow` `dbt` `Apache Kafka` `Apache Flink`
 
-`Java 21` `Spring Boot` `Kafka (KRaft)` `Apache Flink` `ClickHouse` `Grafana` `Docker` `Terraform` `Resilience4j`
+**Databases & Analytics**
 
----
+`PostgreSQL` `ClickHouse` `Metabase` `Grafana`
 
-### 📚 [Web Truyện — Backend (Spring Boot)](https://github.com/D121104/web-truyen-be-spring)
-> RESTful API backend for a Vietnamese online comic/novel reading platform.
+**Machine Learning**
 
-- Full auth flow: JWT (access + refresh), Google OAuth2, OTP email verification
-- Premium content access control with PayOS payment integration
-- Nested comment tree using a **nested-set model**; reading history backed by Redis
-- File uploads via Cloudinary; containerized with Docker Compose
+`scikit-learn` `TensorFlow` `Keras` `Pandas` `NumPy`
 
-`Java 21` `Spring Boot 3.4` `MongoDB` `Redis` `JWT` `OAuth2` `PayOS` `Docker`
+**Infrastructure**
+
+`Docker` `Docker Compose` `GitHub Actions` `Linux`
 
 ---
 
+## Featured Projects
 
-### ❤️ [Heart Disease Prediction](https://github.com/D121104/heart-disease-prediction)
-> Machine learning pipeline for predicting heart disease risk from clinical data.
+### [E-commerce Data Platform](https://github.com/D121104/ecommerce-data-platform)
 
-- Exploratory data analysis, feature engineering, and model evaluation using scikit-learn
-- Jupyter Notebook workflow with reproducible experiments
+Production-oriented batch data platform that transforms raw e-commerce data into analytics-ready datasets.
 
-`Python` `Jupyter Notebook` `scikit-learn` `Pandas` `Machine Learning`
+* Built ingestion pipelines for transactional data
+* Designed raw, staging, warehouse, and marts data layers
+* Implemented dimensional models and transformations with dbt
+* Orchestrated pipelines with Apache Airflow
+* Added automated data quality checks
+* Built analytical dashboards with Metabase
+* Implemented CI validation with GitHub Actions
+* Containerized the platform with Docker
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=D121104&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=D121104&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
+**Tech:** Python, PostgreSQL, dbt, Airflow, Metabase, Docker
 
 ---
 
-## 📫 Get in Touch
+### [LoL Esports Real-time Telemetry Pipeline](https://github.com/D121104/LoL-Esports-Real-time-Telemetry-Pipeline)
 
-- 💼 Open to backend & data engineering roles
-- 📧 Feel free to reach out via [GitHub Issues](https://github.com/D121104/D121104/issues) or connect on LinkedIn
+Real-time event-driven analytics pipeline for League of Legends match telemetry.
+
+* Streams events through Apache Kafka
+* Processes stateful streams with Apache Flink
+* Stores analytical workloads in ClickHouse
+* Uses PostgreSQL for metadata storage
+* Computes real-time match statistics and derived metrics
+* Visualizes analytical results with Grafana
+
+**Tech:** Kafka, Flink, ClickHouse, PostgreSQL, Grafana, Docker
 
 ---
 
-<div align="center">
-  <i>⭐ If you find my projects interesting, consider giving them a star!</i>
-</div>
+### [CNN Fashion Image Classification](https://github.com/D121104/cnn-fashion-image-classification)
+
+Reproducible deep learning project for multiclass image classification.
+
+* Built a convolutional neural network with TensorFlow/Keras
+* Implemented preprocessing and stratified dataset splitting
+* Applied Batch Normalization, Dropout, and L2 regularization
+* Created reusable training and evaluation workflows
+* Evaluated models with classification reports and confusion matrices
+* Structured the project as a reproducible ML codebase
+
+**Tech:** Python, TensorFlow, Keras, scikit-learn, Pandas
+
+---
+
+### [Machine Learning & Deep Learning Case Studies](https://github.com/D121104/ml-dl-case-studies)
+
+Collection of practical machine learning and deep learning experiments across multiple problem domains.
+
+Areas covered:
+
+* Computer Vision
+* CNNs
+* NLP
+* LSTM / RNN
+* Time-series forecasting
+* Classification
+* Clustering
+* Feature engineering
+* Regularization and overfitting analysis
+
+**Tech:** Python, TensorFlow, Keras, scikit-learn, Pandas
+
+---
+
+## Current Focus
+
+**Data Engineering**
+
+ETL/ELT · Data Warehousing · Data Modeling · Workflow Orchestration · Batch Processing · Stream Processing
+
+**Machine Learning**
+
+Machine Learning · Deep Learning · Computer Vision · ML Pipelines · Model Evaluation
+
+**Long-term direction**
+
+Data Engineering → ML Engineering → MLOps / Production ML
+
+---
+
+## Contact
+
+Open to opportunities in **Data Engineering, Machine Learning Engineering, and Data & AI Engineering**.
